@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Dober dek</string>
+    <string name="app_name">Dober Tek</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">OK</string>
+
+
 </resources>
