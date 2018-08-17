@@ -6,4 +6,12 @@
     android:layout_height="wrap_content"
     tools:context=".Splash">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/splash_desc"
+        android:src="@drawable/fig"/>
 </RelativeLayout>

@@ -6,6 +6,7 @@
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">OK</string>
+    <string name="splash_desc">Splash screen</string>
 
 
 </resources>
