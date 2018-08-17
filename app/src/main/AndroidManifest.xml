@@ -8,8 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Splash" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        android:theme="@style/Final">
+        <activity android:name=".Splash" android:theme="@style/FullScreen" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,8 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mainas" />
-        <activity android:name=".Main"></activity>
+        <activity android:name=".mainas" android:theme="@style/Final"/>
+        <activity android:name=".Main" android:theme="@style/FullScreen"></activity>
     </application>
 
 </manifest>
