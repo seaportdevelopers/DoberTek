@@ -6,23 +6,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".JustMe">
-
     <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="0dp"
-        android:layout_marginBottom="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:paddingTop="0dp"
-        android:src="@drawable/ic_launcher_background" />
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/imageView"
+        />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:gravity="center"
+        android:text="Description about product"
 
+        android:textAlignment="center"
+        android:textSize="8pt" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Request"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="40dp" />
 
 
 </RelativeLayout>
