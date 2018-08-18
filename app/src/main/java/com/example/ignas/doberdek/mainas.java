@@ -41,18 +41,18 @@ public class mainas extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 String Slecteditem= itemname[+position];
                 Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
-                if (Slecteditem == "Create for me")
+                if (Slecteditem == "Crate for me")
                 {
                 Intent justme = new Intent(mainas.this, JustMe.class);
                 startActivity(justme);
 
                 }
-                else if (Slecteditem == "Create for you and me")
+                else if (Slecteditem == "Crate for you and me")
                 {
                     Intent me1 = new Intent(mainas.this, Me1.class);
                     startActivity(me1);
                 }
-                else if (Slecteditem == "Create for 3 + me")
+                else if (Slecteditem == "Crate for 3 + me")
                 {
                     Intent me3 = new Intent(mainas.this, Me3.class);
                     startActivity(me3);

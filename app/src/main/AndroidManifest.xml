@@ -25,8 +25,8 @@
             android:name=".Main"
             android:theme="@style/FullScreen" />
         <activity android:name=".JustMe" />
-        <activity android:name=".Me1" />
-        <activity android:name=".Me3"></activity>
+        <activity android:name=".Me3" />
+        <activity android:name=".Me1"></activity>
     </application>
 
 </manifest>
