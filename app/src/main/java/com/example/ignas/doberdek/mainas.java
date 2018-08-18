@@ -14,9 +14,9 @@ public class mainas extends AppCompatActivity {
 
     ListView list;
     String[] itemname ={
-            "Create for me",
-            "Create for you and me",
-            "Create for 3 + me",
+            "Crate for me",
+            "Crate for you and me",
+            "Crate for 3 + me",
     };
 
     Integer[] imgid={
