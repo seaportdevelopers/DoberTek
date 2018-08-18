@@ -40,7 +40,11 @@ public class mainas extends AppCompatActivity {
                                     int position, long id) {
                 // TODO Auto-generated method stub
                 String Slecteditem= itemname[+position];
-                Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
+
+
+                //Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
+
+
                 if (Slecteditem == "Crate for me")
                 {
                 Intent justme = new Intent(mainas.this, JustMe.class);
