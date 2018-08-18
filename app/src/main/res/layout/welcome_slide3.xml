@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/splash_desc"
-        android:scaleType="centerCrop"/>
-       # app:srcCompat="@drawable/basketpart3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/basketpart1"
+        />
 </RelativeLayout>

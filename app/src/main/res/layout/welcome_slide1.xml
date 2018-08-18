@@ -13,10 +13,9 @@
         android:cropToPadding="false"
         android:scaleType="centerCrop"
         tools:ignore="ContentDescription"
+        android:src="@drawable/basketpart3"
+    />
 
-        />
-
-        #android:src="@drawable/basketpart1"
 
 
 </RelativeLayout>
